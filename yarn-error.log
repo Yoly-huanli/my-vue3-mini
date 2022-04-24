@@ -1,0 +1,53 @@
+Arguments: 
+  /Users/didi/.nvm/versions/node/v14.0.0/bin/node /Users/didi/.nvm/versions/node/v10.16.0/bin/yarn add --dev @babel/preset-typescript
+
+PATH: 
+  /Users/didi/.nvm/versions/node/v14.0.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/didi/.nvm/versions/node/v10.16.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/didi/.nvm/versions/node/v10.16.0/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/didi/Library/Caches/Yarn/v6/npm-ansi-styles-3.2.1-41fbb20243e50b12be0f04b8dedbf07520ce841d-integrity/node_modules/ansi-styles/readme.md' -> '/Users/didi/yoly/my-vue3-mini/node_modules/@babel/highlight/node_modules/ansi-styles/readme.md'
+
+npm manifest: 
+  {
+    "name": "my-vue3-mini",
+    "version": "1.0.0",
+    "description": "记录个人学习vue3源码的过程与收获 学习资料： https://www.bilibili.com/video/BV1R341177P7?p=2&spm_id_from=pageDriver https://github.com/cuixiaorui/mini-vue",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Yoly-huanli/my-vue3-mini.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Yoly-huanli/my-vue3-mini/issues"
+    },
+    "homepage": "https://github.com/Yoly-huanli/my-vue3-mini#readme",
+    "devDependencies": {
+      "jest": "^27.5.1",
+      "typescript": "^4.5.4"
+    },
+    "dependencies": {
+      "@babel/core": "^7.17.9",
+      "@babel/preset-env": "^7.16.11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
